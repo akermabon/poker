@@ -5,7 +5,7 @@ de deux clés :
 - "hand" : la main de poker (String)
 
 La méthode doit retourner une chaine de caractère qui décrit le résultat de la partie.
-Les mains de poker sont comparées en fonction de la valeur de retour de la méthode "to_s".
+Les mains de poker sont comparées en fonction de la valeur de retour de la méthode "name".
 
 Pour simplifier la comparaison, on ne considèrera pas la valeur des cartes composant la combinaison. Exemple:
 Une paire de 2 renverra "pair", une paire de 10 renverra également "pair".
@@ -18,8 +18,5 @@ Les valeurs de retour possibles sont :
 - tie                                           - égalité
 - <color> wins with <hand>                      - vainqueur par combinaison
 - <color> wins with <hand> and kicker <kicker>  - vainqueur par combinaison et valeur de la carte la plus forte
-
-La valeur des cartes est la suivante :
-2 < 3 < 4 < 5 < 6 < 7 < 8 < 9 < T < J < Q < K < A
 
 Pour cette 3ème étape, le candidat devra faire passer les tests du fichier poker_full_tests.rb

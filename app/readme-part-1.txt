@@ -27,4 +27,7 @@ Les mains possibles sont les suivantes, de la plus faible à la plus forte:
 - :straight_flush  - quinte flush          - suite et couleur en même temps
 - :royal_flush     - quinte flush royale   - suite la plus forte et couleur
 
+La valeur des cartes est la suivante :
+2 < 3 < 4 < 5 < 6 < 7 < 8 < 9 < T < J < Q < K < A
+
 Pour ces 2 premières étapes, le candidat devra faire passer les tests du fichier poker_hand_test.rb
