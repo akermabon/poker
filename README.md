@@ -1,3 +1,3 @@
 # README
 
-* run bundle install
+`bundle install`
